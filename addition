@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+// first method
+int main()
+{
+    int a, b, c;
+    cout << "enter two no: ";
+    cin >> a >> b;
+    c = a + b;
+    cout << "sum of the two no. is: " << c;
+    return 0;
+}
+
+// second method
+int main()
+{
+    int a, b;
+    cout << "enter two no: ";
+    cin >> a >> b;
+    cout << "sum of the two no. is: " << a + b;
+    return 0;
+}
